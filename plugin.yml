@@ -1,0 +1,34 @@
+name: ChatManager
+version: 2.1.0
+description: An Easy To Use and Customizable Chat Managing Tool
+author: FireWolf
+
+main: firewolf8385.chatmanager.Main
+
+commands:
+  chat:
+    usage: /<command>
+    description: Main Plugin Command
+    aliases: [c, ch]
+  colors:
+    usage: /<command>
+    description: Displays a list of colors
+  pcc:
+    usage: /<command>
+    description: Clear your own chat
+
+permissions:
+  chat.*:
+    description: Wildcard permission
+    default: op
+    children:
+      chat.blacklist: true
+      chat.blacklist.ignore: true
+      chat.clear: true
+      chat.disable: true
+      chat.enable: true
+      chat.flood: true
+      chat.help: true
+      chat.reload: true
+      chat.bypass.filter: true
+      chat.bypass.mute: true

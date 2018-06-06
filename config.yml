@@ -1,0 +1,101 @@
+#------------------------------------------------------------
+#------------------------------------------------------------
+#-------------------- ChatMananger Config--------------------
+#------------------------------------------------------------
+#------------------------------------------------------------
+
+# These are used when the latest version of the plugin changes the config.
+# You may modify these as you wish, but if they are not done correctly, the config may be deleted.
+# Modifying these will break features in future updates that rely on the config
+PluginVersion: 2.1.0
+ConfigVersion: 3
+
+#------------------------------------------------------------
+# Broadcast/Alert Settings
+#------------------------------------------------------------
+
+# Sets the prefix
+Broadcast: "&c&lAlert&r "
+
+
+#------------------------------------------------------------
+# Join Messages Settings
+#------------------------------------------------------------
+
+#Toggles Join Messages
+JoinMessages: true
+
+#Toggles Custom Join Messages
+CustomJoinMessage: false
+
+# Current Placeholders
+# %player% - Player's Username   |   %displayname% - Player's displayname
+JoinMessage: "&e%player% joined the game."
+
+
+#------------------------------------------------------------
+# Quit Messages Settings
+#------------------------------------------------------------
+
+#Toggles Join Messages
+QuitMessages: true
+
+#Toggles Custom Join Messages
+CustomQuitMessage: false
+
+# Current Placeholders
+# %player% - Player's Username   |   %displayname% - Player's displayname
+QuitMessage: "&e%player% has left the game."
+
+
+#------------------------------------------------------------
+# Death Messages Settings
+#------------------------------------------------------------
+
+#Enables or Disables Death Messages
+DeathMessages: true
+
+
+#------------------------------------------------------------
+# Blacklist Settings
+#------------------------------------------------------------
+
+#Enable or disable blacklist
+Blacklist: true
+
+AddBlacklist: "%word% &ahas been added to the lacklist"
+RemoveBlacklist: "%word% &chas been removed from the blacklist"
+
+# Words blacklisted (in lowercase, please)
+blacklisted:
+
+
+#------------------------------------------------------------
+# Custom Messages
+#------------------------------------------------------------
+
+Messages:
+#Generic Messages--------------------------------------------
+
+  NoPermission: "&cYou do not have access to that command."
+  NotAllowedToSayThat: "&cYou are not allowed to say that!"
+  ChatIsMuted: "&cYou cannot speak while chat is muted!"
+
+#/chat Messages----------------------------------------------
+
+  ChatBroadcastUsage: "&cUsage: /chat broadcast [message]"
+  ChatFloodUsage: "&cUsage: /chat flood [message]"
+  ChatBlacklistUsage: "&cUsage: /chat blacklist [add/remove] [word]"
+  ChatBlacklistAddUsage: "&c/chat blacklist add [word]"
+  ChatBlacklistRemoveUsage: "/chat blacklist remove [word]"
+  ChatEnable: "%player% &ahas unmuted the chat."
+  ChatDisable: "%player% &chas muted the chat."
+  ChatClearedOther: "&aCleared &f%player% &a's chat."
+  PluginReloaded: "&aChatManager has been reloaded."
+
+#------------------------------------------------------------
+# Other Settings
+#------------------------------------------------------------
+
+# Manually change if chat is muted
+Muted: false

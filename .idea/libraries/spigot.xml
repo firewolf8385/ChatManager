@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="spigot">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/mcss/servers/Lobby/spigot.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/mcss/servers/Lobby/plugins/PlaceholderAPI-2.8.7 (1).jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Desktop/mcss/servers/Lobby/spigot.jar!/" />
+    </SOURCES>
+  </library>
+</component>
